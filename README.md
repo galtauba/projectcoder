@@ -130,7 +130,6 @@ Use ProjectCoder to generate full project from this specification
 ```
 projectcoder/
 ├ SKILL.md
-├ README.md
 ├ references/
 ├ templates/
 └ examples/
