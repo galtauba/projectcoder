@@ -236,9 +236,6 @@ MIT
 
 **Gal Tauba**
 
-GitHub:
-[https://github.com/galtauba](https://github.com/galtauba)
-
 ---
 
 # ⭐ Support The Project
