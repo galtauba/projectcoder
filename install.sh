@@ -1,0 +1,27 @@
+#!/bin/bash
+
+SKILL_NAME="projectcoder"
+BASE_URL="https://raw.githubusercontent.com/galtaiba/projectcoder/main"
+INSTALL_PATH="$HOME/.codex/skills/$SKILL_NAME"
+
+echo "Installing ProjectCoder skill..."
+
+mkdir -p "$INSTALL_PATH/references"
+mkdir -p "$INSTALL_PATH/templates"
+mkdir -p "$INSTALL_PATH/examples"
+
+download() {
+    curl -s "$1" -o "$2"
+}
+
+download "$BASE_URL/SKILL.md" "$INSTALL_PATH/SKILL.md"
+download "$BASE_URL/README.md" "$INSTALL_PATH/README.md"
+
+download "$BASE_URL/references/output_format.md" "$INSTALL_PATH/references/output_format.md"
+download "$BASE_URL/references/generation_rules.md" "$INSTALL_PATH/references/generation_rules.md"
+download "$BASE_URL/references/coding_standards.md" "$INSTALL_PATH/references/coding_standards.md"
+
+download "$BASE_URL/templates/project_tree.txt" "$INSTALL_PATH/templates/project_tree.txt"
+download "$BASE_URL/examples/flask_from_spec.md" "$INSTALL_PATH/examples/flask_from_spec.md"
+
+echo "ProjectCoder installed successfully!"

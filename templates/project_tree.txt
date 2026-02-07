@@ -1,0 +1,7 @@
+project-name/
+├ src/
+├ config/
+├ tests/
+├ README.md
+├ requirements.txt
+└ .env.example
