@@ -15,9 +15,8 @@ download() {
     curl -s "$1" -o "$2"
 }
 
-# Root
+# Root (ONLY SKILL FILE)
 download "$BASE_URL/SKILL.md" "$INSTALL_PATH/SKILL.md"
-download "$BASE_URL/README.md" "$INSTALL_PATH/README.md"
 
 # References
 download "$BASE_URL/references/output_format.md" "$INSTALL_PATH/references/output_format.md"
