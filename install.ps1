@@ -17,9 +17,8 @@ function Download-File {
     Invoke-WebRequest -Uri $Url -OutFile $Output -UseBasicParsing
 }
 
-# Root files
+# Root files (ONLY SKILL FILE)
 Download-File "$BaseUrl/SKILL.md" "$InstallPath/SKILL.md"
-Download-File "$BaseUrl/README.md" "$InstallPath/README.md"
 
 # Create folders
 New-Item -ItemType Directory -Force -Path "$InstallPath/references" | Out-Null
