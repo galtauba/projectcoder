@@ -1,3 +1,8 @@
+---
+name: projectcoder
+description: Generate complete production-ready software projects from project books and specification documents.
+---
+
 # Skill: ProjectCoder
 
 ## Description
