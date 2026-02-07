@@ -229,7 +229,7 @@ You can help by:
 
 # 📜 License
 
-MIT (Recommended — update if different)
+MIT
 
 ---
 
