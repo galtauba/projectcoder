@@ -1,3 +1,9 @@
+# Project Structure Templates
+
+----------------------------------------
+Production Default Structure
+----------------------------------------
+
 project-name/
 ├ src/
 ├ config/
@@ -5,3 +11,19 @@ project-name/
 ├ README.md
 ├ requirements.txt
 └ .env.example
+
+
+----------------------------------------
+Educational Simplified Structure
+----------------------------------------
+
+project-name/
+├ main application file (app.py / index.js)
+├ README.md
+├ requirements.txt
+└ simple config (if needed)
+
+Notes:
+- Use simplified structure in Educational Mode
+- Minimize file count
+- Avoid deep architecture layers unless required
