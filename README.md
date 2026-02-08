@@ -66,6 +66,74 @@ Generated projects may include:
 
 ---
 
+# 🧭 Code Generation Modes
+
+ProjectCoder supports multiple generation modes.
+
+---
+
+## 🏭 Default Mode — Production
+
+By default, ProjectCoder generates **production-quality software**.
+
+Production output typically includes:
+
+- Production-ready architecture
+- Clean modular project structure
+- Error handling
+- Logging (when relevant)
+- Configuration separation
+- Scalable design (when relevant)
+- Industry best practices
+- Security-aware defaults
+- Dependency management
+- Infrastructure preparation (Docker when relevant)
+
+If user intent is unclear → Production Mode is used.
+
+---
+
+## 🎓 Optional Mode — Educational (Override)
+
+Educational Mode is activated **only if explicitly requested**.
+
+Example requests that trigger Educational Mode:
+
+- "Educational version"
+- "For students"
+- "High school level"
+- "Beginner friendly"
+- "Learning project"
+- "Simple implementation"
+- "Explainable code"
+
+Educational Mode focuses on:
+
+- Simpler architecture
+- Fewer files
+- More readable code
+- Step-by-step logic
+- Fewer dependencies
+- More inline comments
+- Less infrastructure complexity
+
+---
+
+## 🧩 Hybrid Mode (Advanced Scenario)
+
+If users request:
+
+Production structure + Educational clarity
+
+ProjectCoder will:
+
+- Keep production structure
+- Simplify internal implementation logic
+- Add explanations
+- Reduce unnecessary complexity
+
+---
+
 # 📦 Installation
 
 ---
@@ -121,6 +189,14 @@ Generate full application from this project book:
 
 ```
 Use ProjectCoder to generate full project from this specification
+```
+
+---
+
+## Educational Mode Example
+
+```
+Generate educational version of this project for learning purposes
 ```
 
 ---
@@ -247,4 +323,3 @@ If you find ProjectCoder useful, consider giving the repository a ⭐ on GitHub.
 # 💡 Project Philosophy
 
 > AI should generate real software — not examples.
-
