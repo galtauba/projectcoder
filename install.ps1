@@ -3,8 +3,30 @@ $BaseUrl = "https://raw.githubusercontent.com/galtauba/projectcoder/main"
 
 $InstallPath = "$env:USERPROFILE\.codex\skills\$SkillName"
 
-Write-Host "Installing ProjectCoder skill..." -ForegroundColor Cyan
+Write-Host "ProjectCoder Skill Installer" -ForegroundColor Cyan
+Write-Host ""
 
+# Check if already exists
+if (Test-Path $InstallPath) {
+
+    Write-Host "Skill already exists at:" -ForegroundColor Yellow
+    Write-Host $InstallPath
+    Write-Host ""
+
+    $choice = Read-Host "Do you want to update / reinstall the skill? (Y/N)"
+
+    if ($choice -notin @("Y","y","Yes","YES")) {
+        Write-Host "Installation cancelled." -ForegroundColor Red
+        return
+    }
+
+    Write-Host "Updating skill..." -ForegroundColor Cyan
+}
+else {
+    Write-Host "Installing skill..." -ForegroundColor Cyan
+}
+
+# Ensure directory exists
 New-Item -ItemType Directory -Force -Path $InstallPath | Out-Null
 
 function Download-File {
@@ -17,7 +39,7 @@ function Download-File {
     Invoke-WebRequest -Uri $Url -OutFile $Output -UseBasicParsing
 }
 
-# Root files (ONLY SKILL FILE)
+# Root files
 Download-File "$BaseUrl/SKILL.md" "$InstallPath/SKILL.md"
 
 # Create folders
