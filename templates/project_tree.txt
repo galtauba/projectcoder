@@ -27,3 +27,5 @@ Notes:
 - Use simplified structure in Educational Mode
 - Minimize file count
 - Avoid deep architecture layers unless required
+- Main application files should use basic high-school level code style
+- Keep OOP usage simple (for example one clear class in main flow)
