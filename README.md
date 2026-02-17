@@ -308,7 +308,7 @@ You can help by:
 
 # 📜 License
 
-MIT
+[MIT](LICENSE)
 
 ---
 
