@@ -42,3 +42,7 @@ Rules:
 - Use long and descriptive variable names
 - Avoid metaprogramming
 - Avoid advanced async patterns unless required
+- Keep the main application file (for example app.py / main.py / index.js) at basic high-school programming level
+- In the main file, prefer conditionals, loops, and simple functions over advanced abstractions
+- Include basic OOP in Educational Mode (simple classes + clear methods)
+- Keep OOP simple: short classes, one clear responsibility, no complex inheritance
