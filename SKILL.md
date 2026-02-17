@@ -154,6 +154,11 @@ Medium projects:
 - Avoid overly compact or clever code
 - Avoid advanced language tricks unless required
 - Avoid metaprogramming
+- Main application files (for example `app.py` / `main.py`) must stay at basic high-school programming level
+- In main flow, prefer simple variables, conditionals, loops, and basic functions
+- Educational implementations should include basic OOP usage
+- Use simple classes for core entities with clear attributes and methods
+- Avoid advanced OOP features (for example complex inheritance trees, metaclasses, or heavy patterns)
 
 ---
 
