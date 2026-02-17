@@ -68,7 +68,7 @@ Generated projects may include:
 
 # 🧭 Code Generation Modes
 
-ProjectCoder supports multiple generation modes.
+ProjectCoder supports two generation modes.
 
 ---
 
@@ -113,6 +113,10 @@ Educational Mode focuses on:
 - Fewer files
 - More readable code
 - Step-by-step logic
+- Main application file at basic high-school programming level
+- Basic OOP integration (at least one simple class)
+- Simple classes with clear methods and responsibilities
+- No advanced OOP patterns (for example complex inheritance trees)
 - Fewer dependencies
 - More inline comments
 - Less infrastructure complexity
@@ -196,7 +200,7 @@ Use ProjectCoder to generate full project from this specification
 ## Educational Mode Example
 
 ```
-Generate educational version of this project for learning purposes
+Generate educational version of this project for learning purposes, with basic high-school level code and simple OOP
 ```
 
 ---
