@@ -154,6 +154,7 @@ Medium projects:
 - Avoid overly compact or clever code
 - Avoid advanced language tricks unless required
 - Avoid metaprogramming
+- Do not use type hints in Educational mode (for example Python function annotations or variable type annotations)
 - Main application files (for example `app.py` / `main.py`) must stay at basic high-school programming level
 - In main flow, prefer simple variables, conditionals, loops, and basic functions
 - Educational implementations should include basic OOP usage
