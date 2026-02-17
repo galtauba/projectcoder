@@ -17,6 +17,9 @@ Production Mode:
 Educational Mode:
 - Prefer simple logging (print / console.log)
 - Avoid complex configuration systems unless required for learning goals
+- Keep backend entry files (for example app.py / main.py) at basic high-school programming level
+- Include basic OOP in core logic (at least one simple class)
+- Keep classes beginner-friendly and avoid complex inheritance structures
 
 ---
 
